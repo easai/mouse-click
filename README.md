@@ -1,5 +1,7 @@
 # USB HID Mouse Clicker (CircuitPython)
 
+<img src="https://github.com/easai/mouse-click/blob/main/IMG_2863.jpeg" width="300" alt="USB HID Mouse Clicker" />
+
 This project turns an RP2040‑based board into a USB HID mouse that performs a left‑click whenever a physical button is pressed. It also provides visual feedback using the board’s built‑in LED or NeoPixel, depending on the hardware.
 
 ## Overview
