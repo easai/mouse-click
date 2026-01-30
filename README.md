@@ -229,8 +229,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - Uses [Adafruit HID Library](https://github.com/adafruit/Adafruit_CircuitPython_HID)
 - Inspired by accessibility and automation needs
 
----
 
-**Made with ❤️ for the maker community**
-
-**Questions?** Open an issue or reach out!
