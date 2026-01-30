@@ -138,10 +138,10 @@ time.sleep(0.1)  # Increase for slower response, decrease for faster
 
 ### Changing LED Color (NeoPixel)
 ```python
-pixel[0] = ((255, 0, 0))  # Red
-pixel[0] = ((0, 255, 0))  # Green
-pixel[0] = ((0, 0, 255))  # Blue
-pixel[0] = ((255, 255, 0))  # Yellow
+pixel[0] = (255, 0, 0)  # Red
+pixel[0] = (0, 255, 0)  # Green
+pixel[0] = (0, 0, 255)  # Blue
+pixel[0] = (255, 255, 0)  # Yellow
 ```
 
 ### Multiple Click Types
