@@ -42,11 +42,7 @@ Turn any RP2040-based board into a USB HID mouse that clicks when you press a bu
 ## Hardware Requirements
 
 ### Supported Boards
-- Raspberry Pi Pico / Pico W
-- Adafruit QT Py RP2040
-- Seeed XIAO RP2040
-- Waveshare RP2040-Zero
-- Any RP2040-based board with CircuitPython support
+- RP2040-Zero
 
 ### Additional Components
 - 1× Momentary push button (normally open)
@@ -89,7 +85,7 @@ Download the [Adafruit CircuitPython Library Bundle](https://github.com/adafruit
 
 | Board | Button Pin | NeoPixel Pin | Built-in LED |
 |-------|-----------|--------------|--------------|
-| RP2040-Zero | GP15 | GP16 | N/A |
+| RP2040-Zero | GP14 | GP16 | N/A |
 
 **Note:** Pin assignments can be customized in the code. See [Customization](#customization) section.
 
