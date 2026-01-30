@@ -1,6 +1,7 @@
 import board
 import digitalio
 import usb_hid
+import neopixel
 from adafruit_hid.mouse import Mouse
 import time
 
@@ -14,16 +15,15 @@ button.pull = digitalio.Pull.UP
 
 # LED feedback (optional)
 try:
-    led = digitalio.DigitalInOut(board.LED)
-    led.direction = digitalio.Direction.OUTPUT
+    pixel = neopixel.NeoPixel(board.GP16, 1, brightness=0.3)
 except:
-    led = None
+    pixel = None
 
 while True:
     # When button is pressed, hold mouse button down
     if not button.value:
-        if led:
-            led.value = True
+        if pixel:
+            pixel[0] = (0, 255, 0)  # Green LED to indicate button press
 
         # Press and hold the mouse button
         mouse.press(Mouse.LEFT_BUTTON)
@@ -35,8 +35,8 @@ while True:
         # Release when button is released
         mouse.release(Mouse.LEFT_BUTTON)
         
-        if led:
-            led.value = False
+        if pixel:
+            pixel[0] = (0, 0, 0)  # Turn off LED
         
         # Small debounce
         time.sleep(0.05)
