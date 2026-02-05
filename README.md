@@ -106,10 +106,15 @@ Button Pin 2 ──┴── GND
 - Connect the other terminal to any GND pin
 - Internal pull-up resistor is enabled in software
 
-### Optional External LED
-```
-GPIO Pin ──→ [220Ω Resistor] ──→ LED(+) ──→ LED(-) ──→ GND
-```
+### Case STL/STEP files
+
+This project includes STL and STEP files for the enclosure. These files are provided for printing, modification, or integration into your own workflow. The folder contains the following items:
+
+• Complete enclosure model in STL format  
+• Complete enclosure model in STEP format  
+• Alignment and clearance verified for the current breadboard revision
+
+All files are located in the /case/ directory.
 
 ## Usage
 
