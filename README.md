@@ -1,6 +1,6 @@
 # USB HID Mouse Clicker (CircuitPython)
 
-<img src="https://github.com/easai/mouse-click/blob/main/IMG_2863.jpeg" width="300" alt="USB HID Mouse Clicker" />
+<img src="https://github.com/easai/mouse-click/blob/main/IMG_2896.jpeg" width="300" alt="USB HID Mouse Clicker" />
 
 Turn any RP2040-based board into a USB HID mouse that clicks when you press a button. Perfect for automation, accessibility, testing, or repetitive tasks.
 
@@ -40,6 +40,8 @@ Turn any RP2040-based board into a USB HID mouse that clicks when you press a bu
 - ✅ Customizable click timing and behavior
 
 ## Hardware Requirements
+
+<img src="https://github.com/easai/mouse-click/blob/main/IMG_2863.jpeg" width="300" alt="USB HID Mouse Clicker" />
 
 ### Supported Boards
 - RP2040-Zero
